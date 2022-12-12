@@ -1,0 +1,190 @@
+.container-fluid{
+    padding: 0% 10%;
+}
+.navbar-brand{
+    font-family: releway;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #3D5656;
+    background: transparent;
+    transition: 0.3s ease;
+}
+span{
+    
+    color: #22A39F;
+ 
+  
+				
+}
+
+.sec-1{
+    background-image: url(9.jpg);
+    width: 100%;
+    height: 625px;
+    background-size: cover;
+    padding: 2% 10%;
+    transition: 0.3s ease;
+   
+}
+.sec-h1{
+    font-size: 6.2rem;
+    font-family: releway;
+    font-weight: 900;
+    width: 500px;
+    color: #000000;
+
+
+}
+
+
+
+.toggle-btn{
+    border-style: none;
+    opacity: 0%;
+    background-color:#f8f9fa ;
+    
+}
+.q2{
+    margin: 8% 10% 6% 10%;
+    width: 70%;
+    border-left: 3px solid #434242 ;
+    padding-left: 20px;
+    font-size: 2rem;
+    font-family: releway;
+    font-style: italic;
+    color: #434242;
+ 
+ }
+.sec-3{
+    padding: 8% 0% 6% 10%;
+
+ }
+.sec-h3{
+    font-family: oswald;
+    font-size: 4rem;
+}
+.sec-p3{
+    font-size: 1.4rem;
+    font-family: raleway;
+    padding: 20px 20px 20px 0px;
+    transition: 0.3s ease;
+}
+.sec-li4{
+    list-style: none;
+    padding-top: 30px;
+    position: relative;
+    right: 30px;
+    transition: 0.3s ease;
+}
+.sec-4{
+    background-image: url(3.jpg);
+    width: 100%;
+    height: 625px;
+    background-size: cover;
+    padding: 2% 10%;
+    transition: 0.3s ease;
+}
+.sec-h4{
+    font-size: 4rem;
+    font-family: oswad;
+    color: #000000;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.lip{
+    font-weight: 600;
+    font-family: raleway;
+    font-size: 1.2rem;
+    color: #000000;
+    margin-left: 20px;
+}
+h2{
+    padding: 3px;
+    font-family: oswald;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #22A39F;
+    border-bottom: 1px solid black;
+    padding: 6px;
+}
+.card{
+   width: 400px;
+   margin: 50px;
+   box-shadow: 0 5px 35px rgba(99, 94, 94, 0.08);
+}
+.sec-5{
+    padding: 6% 10%;
+}
+.content{
+    margin-top: 50px;
+}
+input[type=text] {
+    width: 60%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    border: 2px solid gray;
+  border-radius: 4px;
+  }
+.btn1{
+    border-style: none;
+    padding: 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #22A39F;
+    margin-top: 10px;
+
+}
+.footer{
+    background-color: #22A39F;
+    position: relative;
+    top: 20px;
+}
+.footer-p{
+    background-color: #22A39F;
+   
+    margin-left: 45% ;
+}
+@media screen and (max-width: 1200px) {
+    .navbar-brand{
+        font-size: 2rem;
+       }
+    .toggle-btn{
+        opacity: 100%;
+    }
+    .nav-item{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .q2{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+   .card{
+    width: 200px;
+    margin: 20px;
+    margin-left: 60px;
+   }
+   .lip{
+    font-size: 1rem;
+   }
+   h2{
+    font-size: 1rem;
+   }
+   .sec-4{
+    height: 1100px;
+   }
+   .sec-h4{
+    font-size: 2rem;
+   }
+   .sec-h1{
+    font-size: 3.5rem;
+    width: 250px;
+   }
+   .img-3{
+    display: none;
+   }
+ 
+}
